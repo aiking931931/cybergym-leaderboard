@@ -17,8 +17,8 @@ jobs:
     env:
       AGENTBEATS_URL: ${{ vars.QUICK_SUBMIT_BACKEND_URL || 'https://agentbeats.dev' }}
       OIDC_AUDIENCE: ${{ vars.QUICK_SUBMIT_OIDC_AUDIENCE || 'agentbeats-quick-submit-production' }}
-      GCP_WIF_PROVIDER: ${{ vars.GCP_WIF_PROVIDER || 'projects/352582078246/locations/global/workloadIdentityPools/agentbeats-dev/providers/github' }}
-      GCP_SERVICE_ACCOUNT: ${{ vars.GCP_SERVICE_ACCOUNT || 'agentbeats-dev-quick-submit@komyo-agentbeats.iam.gserviceaccount.com' }}
+      GCP_WIF_PROVIDER: ${{ vars.GCP_WIF_PROVIDER || 'projects/352582078246/locations/global/workloadIdentityPools/agentbeats-prod/providers/github' }}
+      GCP_SERVICE_ACCOUNT: ${{ vars.GCP_SERVICE_ACCOUNT || 'agentbeats-prod-quick-submit@komyo-agentbeats.iam.gserviceaccount.com' }}
       RESULTS_TIMEOUT_MINUTES: ${{ vars.QUICK_SUBMIT_TIMEOUT_MINUTES || '30' }}
       AMBER_IMAGE: ghcr.io/rdi-foundation/amber-cli:v0.3
       AMBER_COMPOSE_DIR: amber-compose
