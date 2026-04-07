@@ -1,9 +1,9 @@
 [green_agent]
-image = "cybergym-green:latest"
+agentbeats_id = "019d6508-40a2-7d43-b07b-4c43cd4fba45"
 env = {}
 
 [[participants]]
-image = "cybergym-dummy-purple:latest"
+agentbeats_id = "019d650a-7a76-7ac1-bb32-727b85b1dc1f"
 name = "agent"
 env = {}
 
