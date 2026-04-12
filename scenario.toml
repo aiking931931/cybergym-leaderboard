@@ -3,7 +3,7 @@ agentbeats_id = "019d6508-40a2-7d43-b07b-4c43cd4fba45"
 env = {}
 
 [[participants]]
-agentbeats_id = "PLACEHOLDER_AEGIS_CYBER_ID"
+agentbeats_id = "019d826f-022b-7b40-90ee-c84774b391ca"
 name = "agent"
 env = { AEGIS_URL = "https://aegis.mm9319.com", GEMMA_URL = "https://s9k1im83rzrgpa-11434.proxy.runpod.net", GEMMA_MODEL = "gemma4-26b-moe:latest" }
 
